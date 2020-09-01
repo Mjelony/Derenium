@@ -8,7 +8,6 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
@@ -19,6 +18,7 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.derenium.procedures.RubyHammerRightClickedInAirProcedure;
 import net.mcreator.derenium.procedures.RubyHammerBlockDestroyedWithToolProcedure;
+import net.mcreator.derenium.itemgroup.DereniumItemGroup;
 import net.mcreator.derenium.DereniumModElements;
 
 import java.util.Map;
@@ -96,7 +96,7 @@ public class RubyHammerItem extends DereniumModElements.ModElement {
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(1164));
+			super(new Item.Properties().group(DereniumItemGroup.tab).maxDamage(1164));
 		}
 
 		@Override
