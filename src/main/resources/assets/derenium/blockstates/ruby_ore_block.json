@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "derenium:block/ruby_ore_block"
+    }
+  }
+}

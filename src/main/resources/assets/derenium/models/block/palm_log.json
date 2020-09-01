@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "derenium:blocks/palmlogcentertxt",
+    "up": "derenium:blocks/palmlogcentertxt",
+    "north": "derenium:blocks/palm_log_txt",
+    "east": "derenium:blocks/palm_log_txt",
+    "south": "derenium:blocks/palm_log_txt",
+    "west": "derenium:blocks/palm_log_txt",
+    "particle": "derenium:blocks/palmlogcentertxt"
+  }
+}

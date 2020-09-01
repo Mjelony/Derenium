@@ -1,0 +1,39 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "derenium:rubygem"
+    },
+    "2": {
+      "item": "derenium:rubygem"
+    },
+    "3": {
+      "item": "derenium:rubygem"
+    },
+    "4": {
+      "item": "derenium:rubygem"
+    },
+    "5": {
+      "item": "derenium:rubygem"
+    },
+    "6": {
+      "item": "derenium:rubygem"
+    },
+    "7": {
+      "item": "derenium:rubygem"
+    },
+    "8": {
+      "item": "derenium:rubygem"
+    }
+  },
+  "result": {
+    "item": "derenium:rubyarmor_chestplate",
+    "count": 1
+  }
+}

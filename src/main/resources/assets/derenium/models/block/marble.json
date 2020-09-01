@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "derenium:blocks/marble_txt",
+    "particle": "derenium:blocks/marble_txt"
+  }
+}

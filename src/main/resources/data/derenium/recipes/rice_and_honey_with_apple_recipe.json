@@ -1,0 +1,22 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "derenium:cooked_rice"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "derenium:rice_and_honey_with_apple",
+    "count": 1
+  }
+}

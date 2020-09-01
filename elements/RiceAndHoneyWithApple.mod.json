@@ -1,0 +1,27 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "ricewithhoney",
+    "customModelName": "Normal",
+    "name": "Rice And Honey With Apple",
+    "specialInfo": [
+      "Tasty!!!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Derenium"
+    },
+    "stackSize": 2,
+    "nutritionalValue": 8,
+    "saturation": 1.8,
+    "eatingSpeed": 60,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "RiceAndHoneyWithAppleFoodEaten"
+    }
+  }
+}

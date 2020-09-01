@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "derenium:rice_and_honey_with_apple"
+    },
+    "title": {
+      "translate": "advancements.tasty_foods.title"
+    },
+    "description": {
+      "translate": "advancements.tasty_foods.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "tasty_foods": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "derenium:ruby_ore_block_recipe",
+      "derenium:ruby_block_ore_recipe",
+      "derenium:ruby_ore_smelting",
+      "derenium:ruby_pickaxe_recipe",
+      "derenium:ruby_axe_recipe",
+      "derenium:ruby_sword_recipe",
+      "derenium:ruby_shovel_recipe",
+      "derenium:ruby_hoe_recipe",
+      "derenium:ruby_armor_helmet_recipe",
+      "derenium:ruby_armor_body_recipe",
+      "derenium:ruby_armor_leggings_recipe",
+      "derenium:ruby_armor_boots_recipe"
+    ]
+  },
+  "parent": "derenium:derenium_basics"
+}

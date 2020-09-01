@@ -1,0 +1,36 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "fast_bow",
+    "customModelName": "Normal",
+    "name": "Auto Bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Derenium"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.ARROW"
+    },
+    "shootConstantly": true,
+    "usageCount": 1561,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 2.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 3.9999999999999996,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.ARROW"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

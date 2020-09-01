@@ -1,0 +1,26 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "derenium:rubygem"
+    },
+    "2": {
+      "item": "derenium:rubygem"
+    },
+    "3": {
+      "item": "derenium:rubygem"
+    },
+    "5": {
+      "item": "derenium:rubygem"
+    }
+  },
+  "result": {
+    "item": "derenium:rubyarmor_boots",
+    "count": 1
+  }
+}

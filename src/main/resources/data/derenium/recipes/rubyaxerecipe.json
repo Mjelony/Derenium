@@ -1,0 +1,30 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "derenium:rubygem"
+    },
+    "1": {
+      "item": "derenium:rubygem"
+    },
+    "2": {
+      "item": "derenium:rubygem"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "derenium:rubyaxe",
+    "count": 1
+  }
+}

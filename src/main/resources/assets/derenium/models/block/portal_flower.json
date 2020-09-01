@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "derenium:blocks/portalflower",
+    "particle": "derenium:blocks/portalflower"
+  }
+}

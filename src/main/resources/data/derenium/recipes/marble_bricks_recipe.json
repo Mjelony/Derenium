@@ -1,0 +1,26 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "derenium:marble"
+    },
+    "1": {
+      "item": "derenium:marble"
+    },
+    "2": {
+      "item": "derenium:marble"
+    },
+    "3": {
+      "item": "derenium:marble"
+    }
+  },
+  "result": {
+    "item": "derenium:marble_bricks",
+    "count": 1
+  }
+}

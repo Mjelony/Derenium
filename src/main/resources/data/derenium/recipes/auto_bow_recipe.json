@@ -1,0 +1,36 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_star"
+    },
+    "2": {
+      "item": "derenium:enriched_nether_quartz"
+    },
+    "4": {
+      "item": "minecraft:bow"
+    },
+    "5": {
+      "item": "minecraft:iron_nugget"
+    },
+    "6": {
+      "item": "derenium:enriched_nether_quartz"
+    },
+    "7": {
+      "item": "minecraft:iron_nugget"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "derenium:auto_bow",
+    "count": 1
+  }
+}

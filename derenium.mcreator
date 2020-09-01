@@ -1,0 +1,747 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "RubyGem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_gem"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "RubyOreBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_ore_block"
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_ore_block_recipe"
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_block_ore_recipe"
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_ore_smelting"
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_pickaxe"
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_axe"
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_sword"
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_shovel"
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_hoe"
+    },
+    {
+      "name": "RubyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_pickaxe_recipe"
+    },
+    {
+      "name": "RubyAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_axe_recipe"
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_sword_recipe"
+    },
+    {
+      "name": "RubyShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_shovel_recipe"
+    },
+    {
+      "name": "RubyHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_hoe_recipe"
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RubyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_armor_helmet_recipe"
+    },
+    {
+      "name": "RubyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_armor_body_recipe"
+    },
+    {
+      "name": "RubyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_armor_leggings_recipe"
+    },
+    {
+      "name": "RubyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_armor_boots_recipe"
+    },
+    {
+      "name": "RiceGrain",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "rice_grain"
+    },
+    {
+      "name": "RubyBricks",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_bricks"
+    },
+    {
+      "name": "CompressedPortalFlower",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "compressed_portal_flower"
+    },
+    {
+      "name": "RubyEquipmentCommandExecuted",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_equipment_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyEquipment",
+      "type": "command",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_equipment"
+    },
+    {
+      "name": "RicePlant",
+      "type": "plant",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "rice_plant"
+    },
+    {
+      "name": "CookedRice",
+      "type": "food",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "cooked_rice"
+    },
+    {
+      "name": "PortalFlower",
+      "type": "plant",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "portal_flower"
+    },
+    {
+      "name": "CookedRiceRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "cooked_rice_recipe"
+    },
+    {
+      "name": "Derenium",
+      "type": "tab",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "derenium"
+    },
+    {
+      "name": "RiceAndHoneyWithApple",
+      "type": "food",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "rice_and_honey_with_apple"
+    },
+    {
+      "name": "RiceAndHoneyWithAppleRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "rice_and_honey_with_apple_recipe"
+    },
+    {
+      "name": "LilyFlower",
+      "type": "plant",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lily_flower"
+    },
+    {
+      "name": "RubyStairs",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_stairs"
+    },
+    {
+      "name": "LilyAltar",
+      "type": "structure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lily_altar"
+    },
+    {
+      "name": "MagicForest",
+      "type": "biome",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "magic_forest"
+    },
+    {
+      "name": "AutoBow",
+      "type": "gun",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "auto_bow"
+    },
+    {
+      "name": "EnrichedNetherQuartz",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "enriched_nether_quartz"
+    },
+    {
+      "name": "EnrichedNetherQuartzRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "enriched_nether_quartz_recipe"
+    },
+    {
+      "name": "AutoBowRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "auto_bow_recipe"
+    },
+    {
+      "name": "RiceSlingshot",
+      "type": "gun",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "rice_slingshot"
+    },
+    {
+      "name": "ReinforcedBricks",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "reinforced_bricks"
+    },
+    {
+      "name": "MarbleBricks",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "marble_bricks"
+    },
+    {
+      "name": "Treasure",
+      "type": "structure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "treasure"
+    },
+    {
+      "name": "PalmLog",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "palm_log"
+    },
+    {
+      "name": "PalmIsland",
+      "type": "biome",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "palm_island"
+    },
+    {
+      "name": "PalmLeaves",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "palm_leaves"
+    },
+    {
+      "name": "RubyBricksSlab",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_bricks_slab"
+    },
+    {
+      "name": "RubyBricksSlabRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_bricks_slab_recipe"
+    },
+    {
+      "name": "RubyHammerBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_hammer_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyHammer",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_hammer"
+    },
+    {
+      "name": "Marble",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "marble"
+    },
+    {
+      "name": "MarbleBricksRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "marble_bricks_recipe"
+    },
+    {
+      "name": "RubyHammerRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_hammer_recipe"
+    },
+    {
+      "name": "RubyHammerRightClickedInAir",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ruby_hammer_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DereniumBasics",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "derenium_basics"
+    },
+    {
+      "name": "TastyFoods",
+      "type": "achievement",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "tasty_foods"
+    },
+    {
+      "name": "DebugToggleCommandCommandExecuted",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "debug_toggle_command_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebugToggleCommand",
+      "type": "command",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "debug_toggle_command"
+    },
+    {
+      "name": "RiceAndHoneyWithAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "rice_and_honey_with_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CookedRiceFoodEaten",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "cooked_rice_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TastyFoodsProcedure",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "tasty_foods_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "RiceAndHoneyEaten",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "DebugMode",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "RiceEaten",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.tasty_foods.title": "Tasty Foods",
+      "item.derenium.ruby_pickaxe": "Ruby Pickaxe",
+      "item.derenium.rubyshovel": "Ruby Shovel",
+      "item.derenium.rubypickaxe": "Ruby Pickaxe",
+      "block.derenium.ruby_ore": "Ruby Ore",
+      "biome.derenium.dereniumemanningisland": "Derenium Emanning Island",
+      "block.derenium.ruby_ore_block": "Block of Ruby",
+      "block.derenium.portal_flower": "Portal Flower",
+      "item.derenium.auto_bow": "Auto Bow",
+      "block.derenium.palm_log": "Palm Log",
+      "item.derenium.ruby_armor_leggings": "Ruby Leggings",
+      "block.derenium.lily_flower": "Lily Flower",
+      "item.derenium.rubyarmorhelmet": "Ruby Helmet",
+      "item.derenium.ruby_armor_boots": "Ruby Boots",
+      "block.derenium.ruby_bricks_slab": "Ruby Bricks Slab",
+      "block.derenium.marble": "Marble",
+      "advancements.tasty_foods.descr": "Eat all Derenium foods and  experience a revelation",
+      "block.derenium.ruby_bricks": "Ruby Bricks",
+      "block.derenium.ruby_stairs": "Ruby Stairs",
+      "item.derenium.rubysword": "Ruby Sword",
+      "item.derenium.rice_and_honey_with_apple": "Rice And Honey With Apple",
+      "advancements.derenium_basics.descr": "Eat cooked rice",
+      "biome.derenium.dereniumforest": "Derenium Forest",
+      "advancements.derenium_basics.title": "Derenium Basics",
+      "block.derenium.rice_plant": "Rice Plant",
+      "item.derenium.ruby_gem": "Ruby",
+      "item.derenium.ruby_axe": "Ruby Axe",
+      "item.derenium.rice_slingshot": "Rice Slingshot",
+      "item.derenium.rubyarmorboots": "Ruby Boots",
+      "item.derenium.enriched_nether_quartz": "Enriched Nether Quartz",
+      "block.derenium.reinforced_bricks": "Reinforced Bricks",
+      "item.derenium.ruby_sword": "Ruby Sword",
+      "item.derenium.ruby_shovel": "Ruby Shovel",
+      "item.derenium.ruby_armor_chestplate": "Ruby Chestplate",
+      "block.derenium.compressed_portal_flower": "Compressed Portal Flower",
+      "item.derenium.cooked_rice": "Cooked Rice",
+      "item.derenium.rice_grain": "Rice Grain",
+      "block.derenium.marble_bricks": "Marble Bricks",
+      "item.derenium.rubyarmorlegs": "Ruby Leggings",
+      "itemGroup.tabderenium": "Derenium",
+      "block.derenium.palm_leaves": "Palm Leaves",
+      "item.derenium.rubyarmorbody": "Ruby Chestplate",
+      "item.derenium.ruby_hoe": "Ruby Hoe",
+      "item.derenium.ruby_hammer": "Ruby Hammer",
+      "item.derenium.ruby_armor_helmet": "Ruby Helmet",
+      "item.derenium.rubyhoe": "Ruby Hoe"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "derenium",
+    "modName": "Derenium",
+    "version": "Early Alpha 1.1",
+    "author": "Mjelony",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.derenium",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

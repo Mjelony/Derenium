@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 4.0,
+    "cookingTime": 1600,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.QUARTZ_BLOCK#3"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:EnrichedNetherQuartz"
+    },
+    "name": "enriched_nether_quartz_recipe",
+    "namespace": "mod"
+  }
+}

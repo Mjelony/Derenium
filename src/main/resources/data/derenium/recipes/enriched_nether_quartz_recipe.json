@@ -1,0 +1,12 @@
+{
+  "group": "derenium",
+  "type": "minecraft:blasting",
+  "experience": 4,
+  "cookingtime": 1600,
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": {
+    "item": "derenium:enriched_nether_quartz"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "slingshot",
+    "customModelName": "Normal",
+    "name": "Rice Slingshot",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Derenium"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:RiceGrain"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 1.0,
+    "bulletPower": 0.4,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:RiceGrain"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

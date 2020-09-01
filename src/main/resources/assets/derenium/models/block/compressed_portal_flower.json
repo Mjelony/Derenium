@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "derenium:blocks/portalbricks",
+    "particle": "derenium:blocks/portalbricks"
+  }
+}

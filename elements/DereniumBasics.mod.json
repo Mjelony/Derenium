@@ -1,0 +1,27 @@
+{
+  "_fv": 10,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Derenium Basics",
+    "achievementDescription": "Eat cooked rice",
+    "achievementIcon": {
+      "value": "CUSTOM:CookedRice"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "RiceAndHoneyWithAppleRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 10,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"51\" y=\"117\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CookedRice</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

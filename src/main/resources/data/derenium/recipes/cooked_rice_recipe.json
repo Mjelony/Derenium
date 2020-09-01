@@ -1,0 +1,12 @@
+{
+  "group": "derenium",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "derenium:rice_grain"
+  },
+  "result": {
+    "item": "derenium:cooked_rice"
+  }
+}

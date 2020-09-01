@@ -1,0 +1,38 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rubyhammer",
+    "customModelName": "Normal",
+    "name": "Ruby Hammer",
+    "specialInfo": [
+      "Sometimes works properly [W.I.P.]"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 4,
+    "efficiency": 1.0,
+    "attackSpeed": 0.1,
+    "enchantability": 2,
+    "damageVsEntity": 8.0,
+    "usageCount": 1164,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:RubyGem"
+      }
+    ],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "onEntityHitWith": {
+      "name": "RubyHammerRightClickedInAir"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "RubyHammerBlockDestroyedWithTool"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "derenium:ruby_ore_block"
+    },
+    "2": {
+      "item": "derenium:enriched_nether_quartz"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "derenium:ruby_ore_block"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "derenium:ruby_hammer",
+    "count": 1
+  }
+}

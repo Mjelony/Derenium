@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "derenium:blocks/lilia",
+    "particle": "derenium:blocks/lilia"
+  }
+}

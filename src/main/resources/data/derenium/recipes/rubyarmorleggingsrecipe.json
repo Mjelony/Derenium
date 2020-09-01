@@ -1,0 +1,36 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "derenium:rubygem"
+    },
+    "1": {
+      "item": "derenium:rubygem"
+    },
+    "2": {
+      "item": "derenium:rubygem"
+    },
+    "3": {
+      "item": "derenium:rubygem"
+    },
+    "5": {
+      "item": "derenium:rubygem"
+    },
+    "6": {
+      "item": "derenium:rubygem"
+    },
+    "8": {
+      "item": "derenium:rubygem"
+    }
+  },
+  "result": {
+    "item": "derenium:rubyarmor_leggings",
+    "count": 1
+  }
+}

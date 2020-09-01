@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "derenium:block/ruby_bricks_slab"
+    },
+    "type=top": {
+      "model": "derenium:block/ruby_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "derenium:block/ruby_bricks_slab_full"
+    }
+  }
+}

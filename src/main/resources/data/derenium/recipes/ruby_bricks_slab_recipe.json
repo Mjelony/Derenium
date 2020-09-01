@@ -1,0 +1,22 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "derenium:ruby_bricks"
+    },
+    "1": {
+      "item": "derenium:ruby_bricks"
+    },
+    "2": {
+      "item": "derenium:ruby_bricks"
+    }
+  },
+  "result": {
+    "item": "derenium:ruby_bricks_slab",
+    "count": 6
+  }
+}

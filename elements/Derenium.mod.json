@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Derenium",
+    "icon": {
+      "value": "CUSTOM:PortalFlower"
+    },
+    "showSearch": true
+  }
+}

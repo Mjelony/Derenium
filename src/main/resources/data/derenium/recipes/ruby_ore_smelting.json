@@ -1,0 +1,12 @@
+{
+  "group": "derenium",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "derenium:ruby_ore"
+  },
+  "result": {
+    "item": "derenium:ruby_gem"
+  }
+}
