@@ -32,7 +32,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.derenium.block.CompressedPortalFlowerBlock;
+import net.mcreator.derenium.block.MagicalLeavesBlock;
 import net.mcreator.derenium.DereniumModElements;
 
 import java.util.Set;
@@ -69,6 +69,7 @@ public class MagicForestBiome extends DereniumModElements.ModElement {
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addOres(this);
+			DefaultBiomeFeatures.addLakes(this);
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.FLOWER.withConfiguration(DefaultBiomeFeatures.DEFAULT_FLOWER_CONFIG)
 					.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(4))));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(DefaultBiomeFeatures.GRASS_CONFIG)
@@ -76,7 +77,7 @@ public class MagicForestBiome extends DereniumModElements.ModElement {
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 					new CustomTreeFeature()
 							.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.OAK_LOG.getDefaultState()),
-									new SimpleBlockStateProvider(CompressedPortalFlowerBlock.block.getDefaultState()))).baseHeight(7)
+									new SimpleBlockStateProvider(MagicalLeavesBlock.block.getDefaultState()))).baseHeight(7)
 											.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(DefaultBiomeFeatures.SUGAR_CANE_CONFIG)
@@ -160,9 +161,8 @@ public class MagicForestBiome extends DereniumModElements.ModElement {
 										state = world.getBlockState(blockpos);
 										if (state.getBlock().isAir(state, world, blockpos) || state.getMaterial().blocksMovement()
 												|| state.isIn(BlockTags.LEAVES) || state.getBlock() == Blocks.AIR.getDefaultState().getBlock()
-												|| state.getBlock() == CompressedPortalFlowerBlock.block.getDefaultState().getBlock()) {
-											setTreeBlockState(changedBlocks, world, blockpos, CompressedPortalFlowerBlock.block.getDefaultState(),
-													bbox);
+												|| state.getBlock() == MagicalLeavesBlock.block.getDefaultState().getBlock()) {
+											setTreeBlockState(changedBlocks, world, blockpos, MagicalLeavesBlock.block.getDefaultState(), bbox);
 										}
 									}
 								}
@@ -174,7 +174,7 @@ public class MagicForestBiome extends DereniumModElements.ModElement {
 							setTreeBlockState(changedBlocks, world, genhPos, Blocks.OAK_LOG.getDefaultState(), bbox);
 							if (state.getBlock().isAir(state, world, genhPos) || state.getMaterial().blocksMovement() || state.isIn(BlockTags.LEAVES)
 									|| state.getBlock() == Blocks.AIR.getDefaultState().getBlock()
-									|| state.getBlock() == CompressedPortalFlowerBlock.block.getDefaultState().getBlock()) {
+									|| state.getBlock() == MagicalLeavesBlock.block.getDefaultState().getBlock()) {
 							}
 						}
 						if (rand.nextInt(4) == 0 && height > 5) {
@@ -209,7 +209,7 @@ public class MagicForestBiome extends DereniumModElements.ModElement {
 
 		private boolean canGrowInto(Block blockType) {
 			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == Blocks.OAK_LOG.getDefaultState().getBlock()
-					|| blockType == CompressedPortalFlowerBlock.block.getDefaultState().getBlock()
+					|| blockType == MagicalLeavesBlock.block.getDefaultState().getBlock()
 					|| blockType == Blocks.GRASS_BLOCK.getDefaultState().getBlock() || blockType == Blocks.STONE.getDefaultState().getBlock();
 		}
 

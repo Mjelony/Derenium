@@ -8,7 +8,7 @@
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
-    "generateLakes": false,
+    "generateLakes": true,
     "treeType": 1,
     "vanillaTreeType": "Default",
     "minHeight": 7,
@@ -20,7 +20,7 @@
       "value": "Blocks.LOG#0"
     },
     "treeBranch": {
-      "value": "CUSTOM:CompressedPortalFlower"
+      "value": "CUSTOM:MagicalLeaves"
     },
     "treeFruits": {
       "value": "Blocks.AIR"

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "derenium:blocks/mangrove_top_and_bottom_texture",
+    "up": "derenium:blocks/mangrove_top_and_bottom_texture",
+    "north": "derenium:blocks/mangrove_sidde_texture",
+    "east": "derenium:blocks/mangrove_sidde_texture",
+    "south": "derenium:blocks/mangrove_sidde_texture",
+    "west": "derenium:blocks/mangrove_sidde_texture",
+    "particle": "derenium:blocks/mangrove_top_and_bottom_texture"
+  }
+}

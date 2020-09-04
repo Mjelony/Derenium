@@ -84,6 +84,7 @@ public class DereniumModVariables {
 		public boolean RiceAndHoneyEaten = false;
 		public boolean DebugMode = false;
 		public boolean RiceEaten = false;
+		public double BlockClickedWithChisel = 0;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -97,6 +98,7 @@ public class DereniumModVariables {
 			RiceAndHoneyEaten = nbt.getBoolean("RiceAndHoneyEaten");
 			DebugMode = nbt.getBoolean("DebugMode");
 			RiceEaten = nbt.getBoolean("RiceEaten");
+			BlockClickedWithChisel = nbt.getDouble("BlockClickedWithChisel");
 		}
 
 		@Override
@@ -104,6 +106,7 @@ public class DereniumModVariables {
 			nbt.putBoolean("RiceAndHoneyEaten", RiceAndHoneyEaten);
 			nbt.putBoolean("DebugMode", DebugMode);
 			nbt.putBoolean("RiceEaten", RiceEaten);
+			nbt.putDouble("BlockClickedWithChisel", BlockClickedWithChisel);
 			return nbt;
 		}
 

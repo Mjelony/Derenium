@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "derenium:block/magical_wood"
+    },
+    "facing=north": {
+      "model": "derenium:block/magical_wood"
+    },
+    "facing=east": {
+      "model": "derenium:block/magical_wood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "derenium:block/magical_wood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "derenium:block/magical_wood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "derenium:block/magical_wood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

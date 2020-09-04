@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "derenium:blocks/magical_leaves",
+    "particle": "derenium:blocks/magical_leaves"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "derenium:blocks/magical_wood_upanddown_texture",
+    "up": "derenium:blocks/magical_wood_upanddown_texture",
+    "north": "derenium:blocks/magical_wood_side_texture",
+    "east": "derenium:blocks/magical_wood_side_texture",
+    "south": "derenium:blocks/magical_wood_side_texture",
+    "west": "derenium:blocks/magical_wood_side_texture",
+    "particle": "derenium:blocks/magical_wood_upanddown_texture"
+  }
+}
