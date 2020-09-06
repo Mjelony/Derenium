@@ -704,7 +704,7 @@
       "type": "block",
       "sortid": 63,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "mangrove_log"
     },
@@ -734,6 +734,24 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "magical_wood"
+    },
+    {
+      "name": "MarbleBricksStairs",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "marble_bricks_stairs"
+    },
+    {
+      "name": "ReinforcedBricksStairs",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "reinforced_bricks_stairs"
     }
   ],
   "variable_elements": [
@@ -766,9 +784,10 @@
   "language_map": {
     "en_us": {
       "advancements.tasty_foods.title": "Tasty Foods",
+      "block.derenium.marble_bricks_stairs": "Marble Bricks Stairs",
       "item.derenium.rubyshovel": "Ruby Shovel",
-      "item.derenium.rubypickaxe": "Ruby Pickaxe",
       "block.derenium.manrove_inner_leaves": "Manrove Inner Leaves",
+      "item.derenium.rubypickaxe": "Ruby Pickaxe",
       "biome.derenium.dereniumemanningisland": "Derenium Emanning Island",
       "block.derenium.ruby_ore_block": "Block of Ruby",
       "block.derenium.portal_flower": "Portal Flower",
@@ -810,6 +829,7 @@
       "block.derenium.rice_plant": "Rice Plant",
       "item.derenium.ruby_gem": "Ruby",
       "advancements.see_the_magic.descr": "See mystic Magical Forest on your own eyes",
+      "block.derenium.reinforced_bricks_stairs": "Reinforced Bricks Stairs",
       "item.derenium.rubyarmorboots": "Ruby Boots",
       "item.derenium.enriched_nether_quartz": "Enriched Nether Quartz",
       "item.derenium.ruby_shovel": "Ruby Shovel",

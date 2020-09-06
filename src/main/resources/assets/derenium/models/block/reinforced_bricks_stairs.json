@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "derenium:blocks/reinforcedbricks",
+    "top": "derenium:blocks/reinforcedbricks",
+    "side": "derenium:blocks/reinforcedbricks"
+  }
+}

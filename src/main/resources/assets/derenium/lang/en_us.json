@@ -1,8 +1,9 @@
 {
   "advancements.tasty_foods.title": "Tasty Foods",
+  "block.derenium.marble_bricks_stairs": "Marble Bricks Stairs",
   "item.derenium.rubyshovel": "Ruby Shovel",
-  "item.derenium.rubypickaxe": "Ruby Pickaxe",
   "block.derenium.manrove_inner_leaves": "Manrove Inner Leaves",
+  "item.derenium.rubypickaxe": "Ruby Pickaxe",
   "biome.derenium.dereniumemanningisland": "Derenium Emanning Island",
   "block.derenium.ruby_ore_block": "Block of Ruby",
   "block.derenium.portal_flower": "Portal Flower",
@@ -44,6 +45,7 @@
   "block.derenium.rice_plant": "Rice Plant",
   "item.derenium.ruby_gem": "Ruby",
   "advancements.see_the_magic.descr": "See mystic Magical Forest on your own eyes",
+  "block.derenium.reinforced_bricks_stairs": "Reinforced Bricks Stairs",
   "item.derenium.rubyarmorboots": "Ruby Boots",
   "item.derenium.enriched_nether_quartz": "Enriched Nether Quartz",
   "item.derenium.ruby_shovel": "Ruby Shovel",
