@@ -1,0 +1,16 @@
+{
+  "group": "derenium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "derenium:mangrove_log"
+    }
+  },
+  "result": {
+    "item": "derenium:mangrove_planks",
+    "count": 4
+  }
+}

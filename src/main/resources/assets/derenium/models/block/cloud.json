@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "derenium:blocks/cloud_txt",
+    "particle": "derenium:blocks/cloud_txt"
+  }
+}
